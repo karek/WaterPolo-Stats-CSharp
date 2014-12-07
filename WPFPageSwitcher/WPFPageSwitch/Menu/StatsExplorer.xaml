@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="WPFPageSwitch.StatsExplorer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+        d:DesignHeight="300" d:DesignWidth="300">
+
+
+    <Grid x:Name="statsLayoutRoot" Background="LightBlue">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Menu IsMainMenu="True" Background="CornflowerBlue">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New..." Name="New" Click="NewClick" />
+                <Separator />
+                <MenuItem Header="_Save"  Click="SaveClick"/>
+            </MenuItem>
+        </Menu>
+
+        <TextBlock Grid.Row ="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text="Select stats type:" Margin="20,20,0,0" />
+        <ComboBox SelectedValuePath="Content" SelectionChanged="typeSet" SelectedIndex="0"  Grid.Row="2"  Name="TypeSelect" Width="120" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,15,20,0">
+            <ComboBoxItem Content="Individual Stats"></ComboBoxItem>
+            <ComboBoxItem Content="Team Stats"></ComboBoxItem>
+            <ComboBoxItem Content="All Stats"></ComboBoxItem>           
+        </ComboBox>
+
+        <TextBlock Name="selPos" Grid.Row ="3" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text="Select Position:" Margin="20,20,0,0" />
+        <ComboBox  SelectionChanged="posSet" Grid.Row="3"  Name="PositionSelect" Width="120" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,15,20,0"/>
+
+        <TextBlock Name="selTeam" Grid.Row ="4" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text="Select Team:" Margin="20,10,0,0" />
+        <ComboBox Visibility="Visible" SelectionChanged="teamSet" Grid.Row="4"  Name="TeamsSelect" Width="120" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,5,20,0"/>
+
+        <TextBlock Name="selPla" Grid.Row ="4" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextWrapping="Wrap" Text="Select Player:" Margin="20,0,0,10" />
+        <ComboBox Visibility="Visible"  SelectionChanged="playerSet" Grid.Row="4"  Name="PlayerSelect" Width="120" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,5"/>
+
+        <TextBlock Name="stats" Grid.Row ="5" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Text="Current stats: 0/0" Margin="20,0,0,0" />
+        <TextBlock Grid.Row="1"  Text="Stats Explorer" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" TextWrapping="Wrap" FontSize="21.333"/>
+        <Button Grid.Row="5" Content="&lt; Back" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Center" Width="75" Click="Back_Click"/>
+    </Grid>
+
+</UserControl>

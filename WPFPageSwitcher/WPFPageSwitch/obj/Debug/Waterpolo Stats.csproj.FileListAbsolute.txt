@@ -1,0 +1,23 @@
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WaterpoloStats.exe
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WaterpoloStats.pdb
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\bin\Debug\WaterpoloStats.exe.config
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\bin\Debug\WaterpoloStats.exe
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\bin\Debug\WaterpoloStats.pdb
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Gameplay.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\MainMenu.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\StatsExplorer.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\Gameplay.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\MainMenu.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\StatsExplorer.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\PageSwitcher.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\App.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WaterpoloStats_MarkupCompile.cache
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WaterpoloStats.g.resources
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\WPFPageSwitch.Properties.Resources.resources
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Waterpolo Stats.csproj.GenerateResource.Cache
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\CreatePlayer.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\CreateTeam.baml
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\CreatePlayer.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Menu\CreateTeam.g.cs
+C:\Users\Krzysiek\Desktop\c#apps\WPFPageSwitcher\WPFPageSwitcher\WPFPageSwitch\obj\Debug\Waterpolo Stats.csprojResolveAssemblyReference.cache
